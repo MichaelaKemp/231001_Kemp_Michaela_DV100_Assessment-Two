@@ -21,7 +21,7 @@
   <body>
 
     <div class="row">
-      <form class="col-5 form">
+      <form class="col-5 form" id = "student">
         <h3>Student Registration</h3>
         <input type="text" class="form-control" placeholder="First Name" id="first">
         <input type="text" class="form-control" placeholder="Last Name" id="last">
@@ -63,7 +63,7 @@
             Third Year
           </label>
         </div>
-        <button class="btn btn-primary" type="button">Register Student</button>
+        <button class="btn btn-primary" type="button" onclick="addStudent(); displayStudent(); complete()">Register Student</button>
       </form>
       
       <div class="col-7 output">
@@ -71,17 +71,7 @@
         <div class="row" id="studentOut">
 
           <!-- This is the example element -->
-          <div class="col-4">
-            <div class="card" style="width: 100%;">
-              <div class="card-body">
-                <h5 class="card-title">Student Name</h5>
-                <p>Student Number: value</p>
-                <p>Year: value</p>
-                <p>Choice One: value</p>
-                <p>Choice Two: value</p>
-              </div>
-            </div>
-          </div>
+
 
 
         </div> 
